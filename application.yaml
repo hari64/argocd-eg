@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/dipendrachaudhary/argocd-example.git
+    repoURL: https://github.com/hari64/argocd-eg.git
     targetRevision: HEAD
-    path: dev
+    path: argo
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
